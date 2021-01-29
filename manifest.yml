@@ -1,0 +1,6 @@
+applications:
+- name: gpv-pgweb
+  buildpack: go_buildpack
+  memory: 256M
+  env:
+     GOPACKAGENAME: "github.com/sosedoff/pgweb"
