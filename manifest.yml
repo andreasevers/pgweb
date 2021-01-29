@@ -1,5 +1,5 @@
 applications:
-- name: gpv-pgweb
+- name: my-pgweb
   buildpack: go_buildpack
   memory: 256M
   env:
